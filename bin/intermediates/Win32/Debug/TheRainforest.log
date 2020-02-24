@@ -1,0 +1,5 @@
+﻿  Application.cpp
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(25,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(72,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(73,133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  TheRainforest.vcxproj -> C:\dev\TheRainforest\bin\Win32\Debug\TheRainforest.exe
