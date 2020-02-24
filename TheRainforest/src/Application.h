@@ -1,7 +1,5 @@
 #pragma once
 
-#include <SDL.H>
-#include <SDL_image.h>
 #include "FrameRateLimiter.h"
 
 class Application : public FrameRateLimiter

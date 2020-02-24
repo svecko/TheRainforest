@@ -1,5 +1,6 @@
 #include "Texture2D.h"
-#include "TextureLoader.h"
+
+#include <memory>
 
 Texture2D::Texture2D()
 {
@@ -22,7 +23,7 @@ Texture2D::Texture2D(const char* texture, SDL_Renderer* renderer, int srcX, int 
 }
 
 Texture2D::Texture2D(const char* texture, SDL_Renderer* renderer, int srcW, int srcH, int srcX, int srcY, int destX, int destY, float scale)
-	: m_Renderer(renderer)
+	: m_Renderer(renderer), m_Flip(SDL_FLIP_NONE)
 {
 	m_Texture = TextureLoader::LoadTexture(texture, renderer);
 
@@ -45,15 +46,34 @@ void Texture2D::Update()
 {
 }
 
+void Texture2D::Animate(int srcY, int frames, int speed)
+{
+	m_Flip = SDL_FLIP_NONE;
+	m_SrcRect.y = srcY;
+	m_SrcRect.x = m_SrcRect.w * static_cast<int>((SDL_GetTicks() / speed) % frames);
+}
+
+void Texture2D::Animate(int srcY, int frames, int speed, bool flipped)
+{
+	m_Flip = SDL_FLIP_HORIZONTAL;
+	m_SrcRect.y = srcY;
+	m_SrcRect.x = m_SrcRect.w * static_cast<int>((SDL_GetTicks() / speed) % frames);
+}
+
 void Texture2D::SetPosition(int x, int y)
 {
 	m_DestRect.x = x;
 	m_DestRect.y = y;
 }
 
+void Texture2D::Transform(int dirX, int dirY)
+{
+	m_DestRect.x += dirX;
+	m_DestRect.y += dirY;
+}
+
 void Texture2D::Render()
 {
-	SDL_RenderCopy(m_Renderer, m_Texture, &m_SrcRect, &m_DestRect);
-	// SDL_RenderCopyEx(m_Renderer, m_Texture, &m_SrcRect, &m_DestRect, m_Angle, NULL, SDL_FLIP_NONE);
+	SDL_RenderCopyEx(m_Renderer, m_Texture, &m_SrcRect, &m_DestRect, NULL, NULL, m_Flip);
 }
 

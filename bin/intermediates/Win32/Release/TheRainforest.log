@@ -1,17 +1,17 @@
 ﻿  Application.cpp
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(25,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(72,11): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(28,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(147,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   FrameRateLimiter.cpp
   Main.cpp
   Texture2D.cpp
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(73,133): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(18,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(148,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(19,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(34,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  TextureLoader.cpp
+C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(20,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
 C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(35,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(36,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 103 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  108 of 150 functions (72.0%) were compiled, the rest were copied from previous compilation.
+    33 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   TheRainforest.vcxproj -> C:\dev\TheRainforest\bin\Win32\Release\TheRainforest.exe
