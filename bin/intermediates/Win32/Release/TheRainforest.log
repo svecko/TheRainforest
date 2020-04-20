@@ -14,13 +14,23 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(2057,56): warning C4244:         [
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(2057,56): warning C4244:             _Ty=float
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(2057,56): warning C4244:         ]
+  Main.cpp
+  Texture2D.cpp
 C:\dev\TheRainforest\TheRainforest\src\Application.cpp(267): message : see reference to function template instantiation 'std::unique_ptr<Texture2D,std::default_delete<_Ty>> std::make_unique<Texture2D,SDL_Texture*&,SDL_Renderer*&,int,int,int,int,float,float,float,const char(&)[5],0>(SDL_Texture *&,SDL_Renderer *&,int &&,int &&,int &&,int &&,float &&,float &&,float &&,const char (&)[5])' being compiled
 C:\dev\TheRainforest\TheRainforest\src\Application.cpp(267): message :         with
 C:\dev\TheRainforest\TheRainforest\src\Application.cpp(267): message :         [
 C:\dev\TheRainforest\TheRainforest\src\Application.cpp(267): message :             _Ty=Texture2D
 C:\dev\TheRainforest\TheRainforest\src\Application.cpp(267): message :         ]
+C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(20,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(21,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(36,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(37,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(52,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(53,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(100,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(100,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating code
-  2 of 225 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+  0 of 225 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
