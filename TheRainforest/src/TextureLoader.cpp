@@ -17,6 +17,7 @@ SDL_Texture* TextureLoader::LoadTexture(const char* file, SDL_Renderer* renderer
 	return texture;
 }
 
+
 int TextureLoader::GetTextureHeight(const char* file)
 {
 	SDL_Surface* tmpSurface = IMG_Load(file);
