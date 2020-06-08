@@ -1,37 +1,36 @@
 ﻿  Application.cpp
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(40,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(196,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(197,22): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(244,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(244,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(257,20): warning C4018: '<': signed/unsigned mismatch
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(274,20): warning C4018: '<': signed/unsigned mismatch
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(282,22): warning C4018: '<': signed/unsigned mismatch
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(294,68): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(295,68): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(2057,56): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(82,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(230,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(231,43): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(298,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(312,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(312,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(347,116): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(347,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(369,119): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(369,46): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(372,21): warning C4018: '<': signed/unsigned mismatch
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(384,22): warning C4018: '<': signed/unsigned mismatch
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(391,24): warning C4018: '<': signed/unsigned mismatch
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(417,22): warning C4018: '<': signed/unsigned mismatch
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(426,22): warning C4018: '<': signed/unsigned mismatch
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(442,124): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(442,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(2057,56): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(2057,56): warning C4244:         with
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(2057,56): warning C4244:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(2057,56): warning C4244:             _Ty=float
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(2057,56): warning C4244:             _Ty=int
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(2057,56): warning C4244:         ]
+  File.cpp
   Main.cpp
-  Texture2D.cpp
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(267): message : see reference to function template instantiation 'std::unique_ptr<Texture2D,std::default_delete<_Ty>> std::make_unique<Texture2D,SDL_Texture*&,SDL_Renderer*&,int,int,int,int,float,float,float,const char(&)[5],0>(SDL_Texture *&,SDL_Renderer *&,int &&,int &&,int &&,int &&,float &&,float &&,float &&,const char (&)[5])' being compiled
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(267): message :         with
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(267): message :         [
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(267): message :             _Ty=Texture2D
-C:\dev\TheRainforest\TheRainforest\src\Application.cpp(267): message :         ]
-C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(20,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(21,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(36,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(37,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(52,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(53,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(100,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\dev\TheRainforest\TheRainforest\src\Texture2D.cpp(100,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(112): message : see reference to function template instantiation 'std::unique_ptr<Texture2D,std::default_delete<_Ty>> std::make_unique<Texture2D,SDL_Texture*&,SDL_Renderer*&,int,int,int,int,int,int,float,const char(&)[10],0>(SDL_Texture *&,SDL_Renderer *&,int &&,int &&,int &&,int &&,int &&,int &&,float &&,const char (&)[10])' being compiled
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(112): message :         with
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(112): message :         [
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(112): message :             _Ty=Texture2D
+C:\dev\TheRainforest\TheRainforest\src\Application.cpp(112): message :         ]
   Generating code
-  0 of 225 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  95 of 407 functions (23.3%) were compiled, the rest were copied from previous compilation.
+    6 functions were new in current compilation
+    35 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   TheRainforest.vcxproj -> C:\dev\TheRainforest\bin\Win32\Release\TheRainforest.exe
